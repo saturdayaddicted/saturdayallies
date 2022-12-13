@@ -1,0 +1,103 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #e1ad01;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #8d6b1d;
+    color: white;
+  }
+
+  /*พื้นหลังเว็บ*/
+  body {
+background-color: #fdefdb;
+font-family: 'Kanit', sans-serif;
+margin: 0;
+  }
+
+
+  .menuline{
+    width: 100%;
+    height: .5vh;
+    background-color: wheat;
+    position: relative;
+  }
+  
+  /*ข้อความแนะนำ*/
+  .content1 {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(to bottom right, #ffd300,#9b710f);
+    margin: 0;
+    text-align: center;
+    
+  }
+
+  img {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10vh;
+  }
+
+  .rate {
+    background-image: linear-gradient(to right, black,grey);
+    margin-bottom: 0;
+    padding-bottom: 0;   
+    height: auto; 
+  }
+
+  .order {
+    background-image: linear-gradient(to right, black,grey);    
+  }
+
+  /*จอเล็ก*/
+  @media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+    .content2 {
+        margin: 0;
+        padding: 0;}
+    h1 {
+            text-align: center;
+        }
+  }
+
+  /*จอใหญ่*/
+  @media screen and (min-width: 601px) {
+    img {
+        width: auto;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    h1 {
+        text-align: center;
+    }
+    }
+
+    body{
+        background-color: black;
+    }
+
