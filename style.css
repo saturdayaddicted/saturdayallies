@@ -193,6 +193,7 @@ div.service1detail {
     word-wrap: break-word;
     padding: 2px;
     padding-top: 3vh;
+
     
 }
 /* list in detail box for marketing service*/
@@ -261,6 +262,7 @@ div.service2 {
     align-items: center;
     word-wrap: break-word; /* split sentense */
     padding: 2px;
+
 }
 
 div.bizservice h1 {
@@ -283,6 +285,8 @@ div.bizdetail {
     word-wrap: break-word;
     padding: 2px;
     padding-top: 3vh;
+    display: none;
+
     
 }
 /* list in detail box for biz service*/
