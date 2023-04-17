@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(23, 22, 22, .2);
+    background: rgba(23, 22, 22, .5);
 }
 
 .viewport-header h1 {
@@ -51,122 +51,263 @@ footer {
     position: relative;
 }
 
+/* --------------------- SERVICE SECTION BEGINS ---------------------- */
+
+/* Service Menu section */
 div.ourservice {
     height: 100vh;
     align-items: center;
-    background: rgba(23, 22, 22, .5);
+    background: rgba(23, 22, 22, .9);
 text-align: center;
 color: white;
 position: relative;
-    
+}
+/* WHO ARE WE */
+div.ourservice p {
+    font-size: 20px;
+    align-items: left;
+    padding-top: 5vh; 
+    text-align: left;
+    padding-left: 5vh;
+    padding-right: 5vh;
 
 }
 
+/* WHAT WE DO? */
+div.ourservice h1 {
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh; 
+}
+
+/* Service Menu box */
 div.service {
     text-align: center;
     color: black;
-    border: 3px solid#f2fa5aff;
     background: rgba(242, 250, 90, .8);
-    border-radius: 5vw;
-    height: 50vh;
+    border-radius: 3vw;
+    height: 40vh;
     width:30vw;
     justify-content: center;
     float: left;
     margin-left: 13vw;
-    margin-top: 5vw;
+    margin-top: 3vw;
     align-items: center;
     word-wrap: break-word;
     position: relative;
 
+
 }
 
-
-
+/* Service Menu TEXT */
 div.service p {
-    padding-top: 18%;
-    font-size: 5vh;
+    padding-top:10%;
+    font-size: 35px;
     align-items: center;
     justify-content: center;
   
 }
 
-div.ourservice h1 {
-    font-size: 5vh;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15vh;
-  
+/* --------------------- SERVICE 1 BEGINS ---------------------- */
+
+/* Box MKT Service */
+div.box1 {
+    height: 70vh;
+    background: rgba(67, 67, 67, .9);
+    padding-top: 5vh;
+    text-align: left;
+    color: white;
+    position: relative;
+    
 }
 
-div.marketingservice {
-    height: 100vh;
-    align-items: center;
-    background: rgba(23, 22, 22, 0.9);
-padding-top: 5vh;
-text-align: left;
-color: white;
-position: relative;
-display: flex;
-padding-right: 3px;
-
-}
-
-ul{
+/* BRANDING| Headline */
+div.box1 ul{
     font-size: 5vh;
     color: rgba(242, 250, 90, 1);
+}
+
+/* MKT Serviec box alignment */
+div.marketingservice {
+    padding-top: 5vh;
+    align-items: center;
+    position: relative;
+    display: flex;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
 
 }
 
+/* MKT Serviec detail property */
+div.marketingservicedetail {
+    align-items: center;
+    color: white;
+    position: relative;
+    display: flex;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+
+/* Headline BOX for marketing service*/
 div.service1 {
-    text-align: center;
-    color: black;
-    border: 3px solid rgba(23, 22, 22, 0.9);
+    text-align: left;
+    color: black; 
+    border: 3px solid rgba(67, 67, 67, 1); /* border same as bg colour */
+    border-bottom: none;
+    border-top-right-radius: 2vh ;
+    border-top-left-radius: 2vh ;
     background: rgba(242, 250, 90, .8);
     height: 120px; /*  เดิม 350px */
-    width:20vw;
+    width:23vw;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    word-wrap: break-word; /* split sentense */
+    padding: 2px;
+}
+/* Service Number */
+span.number {
+    font-size: 4vh;
+}
+
+h1.TEXTBOX {
+    padding-left: 2vw;
+}
+
+/* detail box for marketing service*/
+div.service1detail {
+    text-align: left;
+    color: white;
+    border: 3px solid rgba(67, 67, 67, 1); /* border same as bg colour */
+    border-top: none;
+    background: linear-gradient(to right top, #00072bff , black);
+    height: 150px; /*  เดิม 350px */
+    width:23vw;
     justify-content: center;
     margin-top: 0px;
     align-items: center;
     word-wrap: break-word;
     padding: 2px;
-
+    padding-top: 3vh;
+    
+}
+/* list in detail box for marketing service*/
+li {
+    padding-left: 1vw;  
 }
 
+/* --------------------- SERVICE 1 ENDS ---------------------- */
+
+/* --------------------- SERVICE 2 BEGINS ---------------------- */
+
+
+/* Box BIZ Service */
+div.box2 {
+    height: 70vh;
+    background: rgba(23, 22, 22, .9);
+    padding-top: 5vh;
+    text-align: right;
+    position: relative;
+}
+
+/* BUSINESS | Headline */
+div.box2 ul{
+    font-size: 5vh;
+    color: #54cdb7ff;
+    padding-right: 2vw;
+}
+
+
+/* Biz Serviec box alignment */
 div.bizservice {
-    height: 100vh;
+    padding-top: 5vh;
     align-items: center;
-    background: rgba(10, 48, 115, 0.5);
-padding-top: 0;
-text-align: left;
-color: white;
-position: relative;
-display: flex;
-padding-right: 3px;
+    position: relative;
+    display: flex;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+/* MKT Serviec detail property */
+div.bizservicedetail {
+    align-items: center;
+    color: white;
+    position: relative;
+    display: flex;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
 
 }
 
+/* Headline BOX for biz service*/
 div.service2 {
-    text-align: center;
-    color: black;
-    border: 3px solid rgba(206, 210, 217, 0.5);
-    background:rgba(66, 133, 244, .8);
+    text-align: right;
+    color: #E3E3E3; 
+    border: 3px solid rgba(23, 22, 22, .9); /* border same as bg colour */
+    border-bottom: none;
+    border-top-right-radius: 2vh ;
+    border-top-left-radius: 2vh ;
+    background: rgba(84, 205, 183, .8);
     height: 120px; /*  เดิม 350px */
-    width:20vw;
+    width:23vw;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    word-wrap: break-word; /* split sentense */
+    padding: 2px;
+}
+
+div.bizservice h1 {
+    padding-right: 2vw;
+}
+
+
+/* detail box for biz service*/
+div.bizdetail {
+    text-align: left;
+    color: #E3E3E3;
+    border: 3px solid rgba(23, 22, 22, .9); /* border same as bg colour */
+    border-top: none;
+    background: linear-gradient(to right top, #00072bff , black);
+    height: 150px; /*  เดิม 350px */
+    width:23vw;
     justify-content: center;
     margin-top: 0px;
     align-items: center;
     word-wrap: break-word;
-    padding-top: 0px;
-
+    padding: 2px;
+    padding-top: 3vh;
+    
+}
+/* list in detail box for biz service*/
+div.bizdetail li {
+    padding-left: 1vw;  
 }
 
-div.contactus {
-    height: 30vh;
-    align-items: center;
-    background: black;
-padding-top: 15vh;
-text-align: center;
-color: white;
-position: relative;
+/* --------------------- SERVICE 2 ENDS ---------------------- */
 
+/* --------------------- CONTACT US ---------------------- */
+
+div.contactus {
+    height: 20vh;
+    align-items: left;
+    background: black;
+    padding-top: 5vh;
+    text-align: left;
+    color: #939CB1;
+    position: relative;
+    padding-left: 5vw;
+
+}
+div.contactus p{
+    padding-left: 5px;
+}
+img.LogoContact {
+    height: 2.5vw;
 }
