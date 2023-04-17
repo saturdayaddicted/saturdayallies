@@ -1,0 +1,292 @@
+@media screen and (max-width: 600px) {
+
+    .viewport-header h1 {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3vw;
+        line-height: 1.2;
+        font-size: 20px;
+        text-align: center;
+    
+        span {
+            display: block;
+            font-size: 10vw;
+            letter-spacing: -1.3vw;
+        }
+    }
+
+/* Service Menu section */
+div.ourservice {
+    height: 80vh;
+    align-items: center;
+    background: rgba(23, 22, 22, .9);
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+/* WHAT WE DO? */
+div.ourservice h1 {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh; 
+}
+
+/* Service Menu box */
+div.service {
+    text-align: center;
+    color: black;
+    background: rgba(242, 250, 90, .8);
+    border-radius: 2vw;
+    height: auto;
+    width:45vw;
+    justify-content: center;
+    float: left;
+    margin-left: 13px;
+    margin-top: 3vw;
+    align-items: center;
+    word-wrap: break-word;
+
+}
+
+/* Service Menu TEXT */
+div.service p {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+  
+}
+
+/* --------------------- SERVICE 1 BEGINS ---------------------- */
+
+/* Box MKT Service */
+div.box1 {
+    height: 100vh;
+    background: rgba(67, 67, 67, .9);
+    padding-top: 2vh;
+    text-align: left;
+    color: white;
+    position: relative;
+    
+}
+
+/* BRANDING| Headline */
+div.box1 ul{
+    font-size: 30px;
+    color: rgba(242, 250, 90, 1);
+    padding-left: 13px;
+    padding-bottom: 13px;
+}
+
+
+/* MKT Serviec box alignment */
+div.marketingservice {
+    padding-top: 2vh;
+    align-items: center;
+    position: relative;
+    display: contents;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+/* Headline BOX for marketing service*/
+div.service1 {
+    text-align: left;
+    color: black; 
+    /* border: 1px solid rgba(67, 67, 67, 1); /* border same as bg colour */
+    border-bottom: none;
+    border-top-right-radius: 1vh ;
+    border-top-left-radius: 1vh ;
+    background: rgba(242, 250, 90, .8);
+    height: 70px; /*  เดิม 350px */
+    width:97vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    word-wrap: break-word; /* split sentense */
+    padding: 2px;
+}
+
+/* MKT Serviec detail property */
+div.marketingservicedetail {
+    align-items: center;
+    color: white;
+    position: relative;
+    display: contents;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+/* Service Number */
+span.number {
+    font-size: 3vh;
+}
+
+h1.TEXTBOX {
+    padding-left: 1vw;
+    font-size: 20px;
+
+}
+
+/* detail box for marketing service*/
+div.service1detail {
+    text-align: left;
+    color: white;
+    /* border: 1px solid rgba(67, 67, 67, 1); /* border same as bg colour */
+    border-top: none;
+    background: linear-gradient(to right top, #00072bff , black);
+    height: auto; /*  เดิม 350px */
+    width: 97vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    word-wrap: break-word;
+    padding: 2px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+
+    
+}
+/* list in detail box for marketing service*/
+li {
+    font-size: 13px;  
+    word-wrap: break-word; /* split sentense */
+
+}
+/* --------------------- SERVICE 1 ENDS ---------------------- */
+
+/* --------------------- SERVICE 2 BEGINS ---------------------- */
+
+
+/* Box BIZ Service */
+div.box2 {
+    height: 100vh;
+    background: rgba(23, 22, 22, .9);
+    padding-top: 2vh;
+    text-align: right;
+    position: relative;
+}
+
+/* BUSINESS | Headline */
+div.box2 ul{
+    color: #54cdb7ff;
+    padding-right: 13px;
+    font-size: 30px;
+    padding-bottom: 13px;
+
+}
+
+/* Biz Serviec box alignment */
+div.bizservice {
+    padding-top: 5vh;
+    align-items: center;
+    position: relative;
+    display: contents;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+/* MKT Serviec detail property */
+div.bizservicedetail {
+    align-items: center;
+    color: white;
+    position: relative;
+    display: contents;
+    padding-right: 3px;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+
+/* Headline BOX for biz service*/
+div.service2 {
+    text-align: right;
+    color: #E3E3E3; 
+    /*border: 3px solid rgba(23, 22, 22, .9); /* border same as bg colour */
+    border-bottom: none;
+    background: rgba(84, 205, 183, .8);
+    padding: 2px;
+    border-top-right-radius: 1vh ;
+    border-top-left-radius: 1vh ;
+    height: 70px; /*  เดิม 350px */
+    width:97vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    word-wrap: break-word; /* split sentense */
+    padding: 2px;
+
+}
+
+div.bizservice h1 {
+    padding-right: 2vw;
+}
+
+
+/* detail box for biz service*/
+div.bizdetail {
+    text-align: left;
+    color: #E3E3E3;
+    /*border: 3px solid rgba(23, 22, 22, .9); /* border same as bg colour */
+    border-top: none;
+    background: linear-gradient(to right top, #00072bff , black);
+    height: auto; /*  เดิม 350px */
+    width: 97vw;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    word-wrap: break-word;
+    padding: 2px;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    
+}
+/* list in detail box for biz service*/
+div.bizdetail li {
+    padding-left: 1vw;  
+}
+
+/* --------------------- SERVICE 2 ENDS ---------------------- */
+
+/* --------------------- CONTACT US ---------------------- */
+
+div.contactus {
+    height: auto;
+    align-items: left;
+    background: black;
+    padding-top: 2vh;
+    text-align: left;
+    color: #939CB1;
+    position: relative;
+    padding-left: 5vw;
+    padding-bottom: 2vh;
+    border-top-right-radius: 3vw;
+    border-top-left-radius: 3vw;
+
+
+
+}
+
+div.contactus h2{
+    font-size: 20px;
+}
+div.contactus p{
+    padding-left: 5px;
+    font-size: 15px;
+}
+img.LogoContact {
+    width: 50%;
+    height: auto;
+}
+
+p#footer {
+    font-size: 12px;
+}
+
+}
