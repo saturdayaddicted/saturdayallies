@@ -8,16 +8,11 @@
         font-size: 20px;
         text-align: center;
     
-        span {
-            display: block;
-            font-size: 10vw;
-            letter-spacing: -1.3vw;
-        }
     }
 
 /* Service Menu section */
 div.ourservice {
-    height: 80vh;
+    height: 100vh;
     align-items: center;
     background: rgba(23, 22, 22, .9);
     text-align: center;
@@ -64,7 +59,7 @@ div.service p {
 
 /* Box MKT Service */
 div.box1 {
-    height: 100vh;
+    height: auto;
     background: rgba(67, 67, 67, .9);
     padding-top: 2vh;
     text-align: left;
@@ -165,7 +160,7 @@ li {
 
 /* Box BIZ Service */
 div.box2 {
-    height: 100vh;
+    height: auto;
     background: rgba(23, 22, 22, .9);
     padding-top: 2vh;
     text-align: right;
